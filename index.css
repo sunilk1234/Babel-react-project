@@ -1,0 +1,205 @@
+*{
+  margin: 0px;
+  padding: 0Px;
+  box-sizing: border-box;
+}
+
+.navig{
+  /* border: 2px solid black; */
+  height: 60px;
+  /* width: 95%; */
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+  /* display: flex; */
+  position: sticky;
+}
+.VPImage{
+  height: 30px;
+  width:30px;
+}
+.inputnav{
+  margin-left: 20px;
+  height: 30px;
+  width: 150px;
+  
+}
+.leftnav{
+  display: flex;
+}
+.DocSearch{
+  margin-left: 20px;
+  width: 150px;
+  height: 30px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.DocSearch-Button-Container{
+  /* border: 2px solid red; */
+  margin-left: 0;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.DocSearch-Control-Key-Icon{
+  /* border: 2px solid black; */
+  width: 15px;
+  font-weight: 400;
+
+}
+.DocSearch-Button-Key{
+  display: inline-block;
+  padding:3px;
+  align-items: center;
+}
+.rightnav{
+  /* border: 2px solid black; */
+  margin-left: 500px;
+  width: 300px;
+}
+.nav{
+  display: flex;
+  background-color: #FFFFFF;
+}
+.navul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.navul li a{
+  text-decoration: none;
+  color: black;
+}
+.navul li a:hover{
+  color: rgb(32, 11, 216);
+}
+
+.items{ 
+  margin-top: 40px;
+  border: 2px solid;
+  padding: 20px;
+  justify-content: space-around;
+  border-radius: 5px;
+  display: none;
+}
+.lang{
+  cursor: pointer;
+  display: block;
+}
+.VPSwitch{
+  margin-left: 20px;
+  margin-top: 3px;
+  width: 50px;
+  height: 20px;
+  border-radius: 8px;
+}
+.images{
+  /* border: 2px solid rgb(21, 4, 4); */
+  margin-left: 20px;
+}
+.body{
+  /* border: 2px solid; */
+  width: 100%;
+}
+.topbody{
+  /* border: 2px solid red; */
+  height: 400px;
+  margin: 70px;
+}
+.leftaside{
+  padding: 50px;
+}
+.rightaside{
+  /* border: 2px solid green; */
+  background-image: radial-gradient(red,rgb(228, 140, 140),white,white);
+  padding: 100px;
+  
+}
+.topbody{
+  display: flex;
+}
+.VPImage1{
+  /* margin-left: 200px; */
+  
+  /* border: 2px solid red; */
+ 
+  height: 200px;
+  width: 200px;
+  /* background-color: ; */
+}
+#toph1{
+  color: #FD7639;
+  font-size: 60px;
+  letter-spacing: -.3px;
+  line-height: auto;
+  font-family:  "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#toph2{
+  color: #3C3C43;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -.3px;
+  font-family:  "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+#para{
+  color: #67676C;
+  font-size: 25px;
+  font-family:  "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+.buttons{
+  margin-top: 40px;
+}
+.but1{
+  color: white;
+  font-weight: 400;
+  font-family:  "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color:#3A5CCC;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+.but2{
+  color: rgb(79, 77, 77);
+  font-weight: 400;
+  font-family:  "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color:#eeeff3;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.cardscontainer{
+  /* border: 2px solid; */
+  padding: 50px;
+  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card{
+  margin-top: 20px;
+  border: 2px solid;
+  margin-left: 50px;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #F6F6F7;
+}
+#hh1{
+  color: #3C3C43;
+  font-size: 20px;
+  margin: 20px;
+}
+#paras{
+  font-size: 15px;
+  margin: 20px;
+}
+#aa{
+  font-size: 15px;
+  margin: 20px;
+  color: blue;
+}
